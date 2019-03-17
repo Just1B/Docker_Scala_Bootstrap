@@ -1,0 +1,1 @@
+// addSbtPlugin("com.geirsson" % "sbt-scalafmt" % "2.0.x")

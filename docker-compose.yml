@@ -1,0 +1,9 @@
+version: '3.1'
+services:
+  
+  api:
+    # restart: unless-stopped
+    build: ./app
+    volumes:
+      - "./app:/app"
+    command: run
